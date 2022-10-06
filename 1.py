@@ -1,4 +1,4 @@
-import sys, cv2 as cv # Импортируем системный модуль
+import sys, cv2 as cv 
 # Импортируем модуль OpenCV (cv2) под именем cv
 img = cv.imread("astana.jpg", 1) # Загружаем изображение
 cv.imshow("original", img) # Отрисовываем изображение
